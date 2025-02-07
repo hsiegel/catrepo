@@ -1,0 +1,44 @@
+# Stack build artifacts
+.stack-work/
+
+# Local Haskell build artifacts
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~
+cabal.sandbox.config
+cabal.config
+setup-config
+
+# Binary files
+*.hi
+*.o
+*.so
+*.dyn_o
+*.dyn_hi
+*.a
+*.exe
+*.dll
+*.dylib
+
+# Logs and temporary files
+*.log
+*.aux
+*.eventlog
+*.prof
+*.hp
+*.hpc
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+*.vscode/
+.idea/
+*.iml
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
