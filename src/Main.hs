@@ -6,7 +6,7 @@ import System.Process (readProcess)
 -- import System.IO (appendFile)
 
 skip :: [String]
-skip = [".gitignore", "ChangeLog.md", "CHANGELOG.md", "LICENSE", "README.md", "Setup.hs", "stack.yaml", "stack.yaml.lock"]
+skip = [".gitignore", "LICENSE", "Setup.hs", "stack.yaml", "stack.yaml.lock"]
 
 main :: IO ()
 main = do
