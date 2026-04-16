@@ -8,4 +8,8 @@ and this project adheres to the
 
 ## Unreleased
 
+- skip binary and undecodable files more gracefully during export
+- ignore generated output and local Codex scratch files in the working tree
+- replace the placeholder README/package metadata with project-specific docs
+
 ## 0.1.0.0 - YYYY-MM-DD

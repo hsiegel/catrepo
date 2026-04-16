@@ -2,15 +2,20 @@ cabal-version:       2.2
 
 name:                catrepo
 version:             0.1.0.0
--- synopsis:
--- description:
-homepage:            https://github.com/githubuser/catrepo#readme
+synopsis:            Concatenate tracked repository text files into one export
+description:
+  catrepo creates a single <repo-name>-all.txt file containing the
+  tracked text files of the current Git repository.
+  .
+  It skips files that Git marks as binary and also ignores files that
+  cannot be decoded as text, making it useful for quick repository
+  snapshots and LLM-friendly exports.
 license:             BSD-3-Clause
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2025 Author name here
-category:            Web
+author:              hsi
+maintainer:          hsi
+copyright:           2025 hsi
+category:            Development
 build-type:          Simple
 extra-source-files:  README.md
                      CHANGELOG.md

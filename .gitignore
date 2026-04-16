@@ -28,6 +28,8 @@ setup-config
 *.prof
 *.hp
 *.hpc
+/catrepo-all.txt
+/.codex
 
 # Editor/IDE files
 *.swp
